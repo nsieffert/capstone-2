@@ -20,40 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76350bd5-904c-4eac-bb59-f240e2c3aff7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/concurrency/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/concurrency/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/concurrency/Reasoning.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/concurrency/Sync.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/concurrency/TeamTC1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/lambda_streams/Animals.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/lambda_streams/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/lambda_streams/Numbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/lambda_streams/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/lambda_streams/animals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/lambda_streams/numbers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/lambda_streams/oneFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/lambda_streams/threeFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/lambda_streams/twoFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/regex/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-3/regex/Regex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/capstone-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/capstone2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/capstone2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/capstone2/Reasoning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/capstone2/TeamTC1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/CapStone2/Hangman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/CapStone2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/CapStone2/Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/CapStone2/StartGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/CapStone2/Words.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Hangman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Hangman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Hangman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +64,7 @@
       <recent name="lambda_streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Hangman">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CapStone2.Hangman" />
       <module name="src" />
@@ -117,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CapStone2.Main" />
-      <module name="src" />
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.Main" />
+      <module name="java-3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CapStone2.*" />
+          <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.Main" />
-      <module name="java-3" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CapStone2.Main" />
+      <module name="src" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.*" />
+          <option name="PATTERN" value="CapStone2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,8 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Hangman" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Hangman" />
         <item itemvalue="Application.Regex" />
         <item itemvalue="Application.Main (1)" />
       </list>
@@ -199,22 +173,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593813549538" />
-    <state width="1323" height="186" key="GridCell.Tab.0.bottom" timestamp="1593823963327">
+    <state width="1323" height="138" key="GridCell.Tab.0.bottom" timestamp="1593879677790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593823963327" />
-    <state width="1323" height="186" key="GridCell.Tab.0.center" timestamp="1593823963327">
+    <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593879677790" />
+    <state width="1323" height="138" key="GridCell.Tab.0.center" timestamp="1593879677790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593823963327" />
-    <state width="1323" height="186" key="GridCell.Tab.0.left" timestamp="1593823963327">
+    <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593879677790" />
+    <state width="1323" height="138" key="GridCell.Tab.0.left" timestamp="1593879677790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593823963327" />
-    <state width="1323" height="186" key="GridCell.Tab.0.right" timestamp="1593823963327">
+    <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593879677790" />
+    <state width="1323" height="138" key="GridCell.Tab.0.right" timestamp="1593879677790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593823963327" />
+    <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593879677790" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1593793526716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -223,10 +197,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1593814042142" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1593472820509">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1593878426091">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1593472820509" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1593878426091" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_3$Main.ic" NAME="Main Coverage Results" MODIFIED="1593538418080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

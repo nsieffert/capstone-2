@@ -2,32 +2,22 @@ package CapStone2;
 
 import java.util.Scanner;
 import java.util.ArrayList;
-import java.util.Random;
-
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Hangman {
-
-    public static final String[] words = {"APPLE", "", "GUAVA", "GRAPE", "GRAPEFRUIT", "PEACH", "PEAR", "KIWI", "PLUM", "TOMATO", "PAPAYA",
-            "STRAWBERRY", "BLUEBERRY", "HACKBERRY", "RASPBERRY", "APRICOT", "BANANA", "BLACKBERRY", "CANTALOUPE",
-            "CHERRY", "DATE"};
-
-    public static final Random random = new Random();
     public static final int maxErrors = 6;
     private String wordToFind;
     private char[] wordFound;
     private int remainingErrors;
     private ArrayList<String> letters = new ArrayList<String>();
 
-    private String nextWordToFind() {
-        return words[random.nextInt(words.length)];
-    }
 
-    public void newGame() {
+    public void startGame() {
         remainingErrors = 0;
         letters.clear();
-        wordToFind = nextWordToFind();
+        wordToFind = Random.nextWordToFind();
         wordFound = new char[wordToFind.length()];
-
         for (int i = 0; i < wordFound.length; i++) {
             wordFound[i] = '_';
 
@@ -71,30 +61,49 @@ public class Hangman {
             while (remainingErrors < maxErrors) {
                 System.out.print("Enter a letter: ");
                 String str = input.next().toUpperCase();
-                if (str.length() > 1) {
-                    str = str.substring(0, 1);
-                }
-                enter(str);
-                System.out.println("Not sure " + wordFoundContent());
-                if (wordFound()) {
-                    System.out.println("You Win!");
-                    break;
+                Pattern p = Pattern.compile("[\\d]");
+                if (p.matcher(str).matches()) {
+                    System.out.println("Please enter a single letter.");
+                    // str = input.next().toUpperCase();
                 } else {
-                    System.out.println("Nb Tries Remaining: " + (maxErrors - remainingErrors));
+                    if (str.length() > 1) {
+                        str = str.substring(0, 1);
+                    }
+                    enter(str);
+                    System.out.println("Your entry: " + wordFoundContent());
+                    if (wordFound()) {
+                        System.out.println("You Win!");
+                        break;
+                    } else {
+                        System.out.println("Number of Tries Remaining: " + (maxErrors - remainingErrors));
+                    }
                 }
             }
-        }
-        if (remainingErrors == maxErrors) {
-            System.out.println("You Lose!");
-            System.out.println("Word was " + wordToFind);
+            if (remainingErrors == maxErrors) {
+                System.out.println("You Lose!");
+                System.out.println("The Secret Word was " + wordToFind);
+            }
         }
     }
 
-
-    public static void main(String[] args) {
-        System.out.println("HangMan Game with Fruit");
-        Hangman hangman = new Hangman();
-        hangman.newGame();
-        hangman.play();
-    }
-}
+            Scanner inputNew = new Scanner(System.in);
+            public boolean playAgain () {
+                boolean play = true;
+                int check = 0;
+                while (check == 0)
+                    System.out.println("Play again [Y/N]?:");
+                String str = inputNew.next().toUpperCase();
+                System.out.println(inputNew);
+                if (inputNew.equals("Y")) {
+                    play = true;
+                    startGame();
+                } else if (inputNew.equals("N")) {
+                    play = false;
+                    check++;
+                    System.out.println("Thanks for playing.");
+                } else {
+                    System.out.println("ERROR! Please enter either 'y' or 'n'.");
+                }
+                return play;
+            }
+        }
