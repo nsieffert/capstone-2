@@ -20,14 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76350bd5-904c-4eac-bb59-f240e2c3aff7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/src/CapStone2/Random.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/CapStone2/StartGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/CapStone2/Words.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Hangman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Hangman.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Random.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Random.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Words.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Words.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Hangman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Random.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Words.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
       <module name="src" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CapStone2.*" />
+          <option name="PATTERN" value="CapStone2.Random" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,7 +110,7 @@
       <module name="src" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CapStone2.*" />
+          <option name="PATTERN" value="CapStone2.Random" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,26 +170,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593802124380" />
+    <state x="392" y="150" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593885308803">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="150" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1593885308803" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1593813549538">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593813549538" />
-    <state width="1323" height="138" key="GridCell.Tab.0.bottom" timestamp="1593879677790">
+    <state width="1323" height="69" key="GridCell.Tab.0.bottom" timestamp="1593897666334">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593879677790" />
-    <state width="1323" height="138" key="GridCell.Tab.0.center" timestamp="1593879677790">
+    <state width="1323" height="69" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593897666334" />
+    <state width="1323" height="69" key="GridCell.Tab.0.center" timestamp="1593897666334">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593879677790" />
-    <state width="1323" height="138" key="GridCell.Tab.0.left" timestamp="1593879677790">
+    <state width="1323" height="69" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593897666334" />
+    <state width="1323" height="69" key="GridCell.Tab.0.left" timestamp="1593897666333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593879677790" />
-    <state width="1323" height="138" key="GridCell.Tab.0.right" timestamp="1593879677790">
+    <state width="1323" height="69" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593897666333" />
+    <state width="1323" height="69" key="GridCell.Tab.0.right" timestamp="1593897666334">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593879677790" />
+    <state width="1323" height="69" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593897666334" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1593793526716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
