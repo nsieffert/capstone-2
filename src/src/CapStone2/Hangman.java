@@ -5,16 +5,20 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.function.Supplier;
 import java.util.regex.Pattern;
+import java.util.stream.Collector;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import CapStone2.*;
 
 public class Hangman implements Runnable {
+    public static final String ANSI_RED = "\u001B[31m";
     public static final String ANSI_BRIGHT_RED = "\u001b[31;1m";
     public static final String ANSI_BRIGHT_YELLOW = "\u001b[33;1m";
     public static final String ANSI_BRIGHT_BLUE = "\u001b[34;1m";
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_BRIGHT_MAGENTA = "\u001b[35;1m";
+    public static final String ANSI_PURPLE = "\u001B[35m";
 
     public static final int maxErrors = 6;
     private String wordToFind;
@@ -24,9 +28,17 @@ public class Hangman implements Runnable {
     boolean quit = false;
 
     noFunction printTitle = () -> {
-        System.out.print(ANSI_BRIGHT_MAGENTA +"++++++++GUESS THE SECRET FRUIT!++++++++\n");
-        System.out.println(ANSI_BRIGHT_MAGENTA + "Type 'quit' at any time to end the game."+ ANSI_RESET);
+        String title = "hangman";
+        IntStream intStream = title.chars();
+        Stream<Character> characterStream = title.chars()
+                .mapToObj(c -> (char) c);
+        System.out.println(ANSI_RED + "++++++++++++++++" + title.toUpperCase() + "++++++++++++++++" + ANSI_RESET);
     };
+        noFunction quitInstructions = () -> {
+            System.out.println(ANSI_BRIGHT_MAGENTA + "+++++++++GUESS THE SECRET FRUIT+++++++++" + ANSI_RESET);
+            System.out.println(ANSI_PURPLE + "Type 'quit' at any time to end the game." + ANSI_RESET);
+        };
+
     public void run() {
         remainingErrors = 0;
         LETTERS.clear();
@@ -35,11 +47,11 @@ public class Hangman implements Runnable {
         Arrays.fill(wordFound, '_'); // this was a for loop. Intellij offered a new fill feature.
     }
 
-    public boolean wordFound() {
+    private boolean wordFound() {
         return wordToFind.contentEquals(new String(wordFound));
     }
 
-    public void enter(String c) {
+    private void enter(String c) {
         if (!LETTERS.contains(c)) {
             if (wordToFind.contains(c)) {
                 int index = wordToFind.indexOf(c);
@@ -69,8 +81,6 @@ public class Hangman implements Runnable {
                 while (remainingErrors < maxErrors) {
                     System.out.print("Enter a letter: ");
                     String str = input.next().toUpperCase();
-
-                   // Stream<String> values = Stream.of(str).map(s -> s.toUpperCase());
 
                     if (str.equals("QUIT")) {
                         quit = true;

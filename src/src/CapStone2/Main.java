@@ -6,8 +6,10 @@ public class Main {
 
         Hangman hangman = new Hangman();
         hangman.printTitle.printIt();
+        hangman.quitInstructions.printIt();
         hangman.run();
         hangman.play();
+
 
     }
 }
