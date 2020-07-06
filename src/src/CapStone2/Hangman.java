@@ -58,7 +58,7 @@ public class Hangman implements Runnable {
     public void play () {
         try (Scanner input = new Scanner(System.in)) {
             while (remainingErrors < MAXERRORS) {
-                System.out.print("Enter a letter: ");
+                System.out.print("Enter a single letter: ");
                 String str = input.next().toUpperCase();
 
                 if (str.equals("QUIT")) {
@@ -76,7 +76,8 @@ public class Hangman implements Runnable {
                         System.out.println("Your entry: " + wordFoundContent());
                         if (wordFound()) {
                             System.out.println(ANSI_BRIGHT_BLUE + "You Win!" + ANSI_RESET);
-                            break;
+                            run();
+                           // break;
                         } else {
                             System.out.println(ANSI_BRIGHT_YELLOW + "Number of Tries Remaining: " + (MAXERRORS - remainingErrors) + ANSI_RESET);
                         }

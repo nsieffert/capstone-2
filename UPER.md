@@ -34,9 +34,10 @@
 	2. This was also needed to understand how to apply user input to the screen with the little underlines.
 * Set up loops and counter - decided on 6 tries, but would like counter to pause while the user is guessing correctly.
 * Build on main and then separate out into components. Connect it all together.
-* Add in error handling on user input.
+* Add in error handling on user input. 
+	a. Try/catch or try to implement try with resources?
 * Add in "Play Again?" feature.
-* Find a way to implement abstraction. - Getters?
+* Find a way to implement abstraction. Make some methods private?
 *
 *
 <h2>
@@ -50,17 +51,17 @@
 * Added in basic error handling on user input using Regex.
 * Added in a quit feature. 
 * Added in as much encapsulation as I could.
-*Added in as much abstraction as I could.
+* Added in as much abstraction as I could.
 * I am unclear where I could implement polymorphism since the game is pretty basic.
-*Added in a couple of interfaces.
-*Added in a lambda per requirements.
-*Added in a stream, per requirements.
-*Added in some colors to make it look better on the console.
+* Added in a couple of interfaces.
+* Added in a lambda per requirements.
+* Added in a stream, per requirements.
+* Added in some colors to make it look better on the console.
 <h2>
     4. Reflection / Refactor
 </h2>
 * This was fun when I understood what I was doing. I just need more time to absorb the boatloads of information I have acquired over the last 9 weeks.
-*
+* 
 *
 *
 *

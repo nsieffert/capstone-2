@@ -14,8 +14,8 @@ The object of the game is to guess what fruit the computer chose.
 	a. You win the game by guessing the word
 	b. You lose because the count incremented to zero.
 	NOTE: if you enter the same letter you have already entered, the counter will not increment.
-7. If you win, the game is over and you must start the game again.
-8. If you lose, the game will start again automatically.
+7. If you win, the game notifies you and starts again.
+8. If you lose, the game notifies you and starts again.
 9. You may type "quit" at any time to end the game.
 
 
