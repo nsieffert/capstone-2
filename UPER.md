@@ -7,7 +7,7 @@
 
 <h2>1. Understanding the Problem</h2>
 * Knowing that I had no idea how to accomplish this, I looked ahead in the coursework and discovered what the capstone would be.
-* I began working on it early. If that counts against me, then no problem.
+* I began working on it early. If that counts against me, then no problem. Better to ask forgiveness and all that!
 * I need to build a console game. But I have no idea where to start.
 * Decide on a game - hangman seems simple enough.
 * Think through the needs for hangman
@@ -31,7 +31,7 @@
 * Decided on game and gathered notes.
 * Found several tutorials on setting up a basic hangman game
 	1. This was needed to understand how to get the program to pick a secret word. Learned about the Random function (not the Math.Random)
-	2. This was also needed to understand how to apply user input to the screen in the right way.
+	2. This was also needed to understand how to apply user input to the screen with the little underlines.
 * Set up loops and counter - decided on 6 tries, but would like counter to pause while the user is guessing correctly.
 * Build on main and then separate out into components. Connect it all together.
 * Add in error handling on user input.
@@ -44,16 +44,22 @@
 </h2>
 * Downloaded the project from GitHub
 * Opened in Intellij
-* Coded basic game in Main method
+* Coded several iterations of the basic game in Main method until I got it working.
 * Tested basic game - fixed/tested many times.
 * Began separating out components to their own methods.
 * Added in basic error handling on user input using Regex.
-* Added in a play again feature.
-* tested.
+* Added in a quit feature. 
+* Added in as much encapsulation as I could.
+*Added in as much abstraction as I could.
+* I am unclear where I could implement polymorphism since the game is pretty basic.
+*Added in a couple of interfaces.
+*Added in a lambda per requirements.
+*Added in a stream, per requirements.
+*Added in some colors to make it look better on the console.
 <h2>
     4. Reflection / Refactor
 </h2>
-*
+* This was fun when I understood what I was doing. I just need more time to absorb the boatloads of information I have acquired over the last 9 weeks.
 *
 *
 *

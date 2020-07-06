@@ -20,15 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76350bd5-904c-4eac-bb59-f240e2c3aff7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/class-diagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/CapStone2/Printing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP.md" beforeDir="false" afterPath="$PROJECT_DIR$/OOP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UPER.md" beforeDir="false" afterPath="$PROJECT_DIR$/UPER.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Hangman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Hangman.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Hangman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/StartGame.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Words.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/noFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/noFunction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CapStone2.Main" />
-      <module name="src" />
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.Main" />
+      <module name="java-3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CapStone2.*" />
+          <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.Main" />
-      <module name="java-3" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CapStone2.Main" />
+      <module name="src" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.*" />
+          <option name="PATTERN" value="CapStone2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,34 +179,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1593802124380">
+    <state x="659" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1593979457478">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593802124380" />
+    <state x="659" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593979457478" />
     <state x="392" y="150" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593885308803">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="150" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1593885308803" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1593906146986">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1593984818896">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593906146986" />
-    <state width="1323" height="315" key="GridCell.Tab.0.bottom" timestamp="1593976096723">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593984818896" />
+    <state width="1323" height="315" key="GridCell.Tab.0.bottom" timestamp="1593981307176">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593976096723" />
-    <state width="1323" height="315" key="GridCell.Tab.0.center" timestamp="1593976096723">
+    <state width="1323" height="315" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593981307176" />
+    <state width="1323" height="315" key="GridCell.Tab.0.center" timestamp="1593981307175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593976096723" />
-    <state width="1323" height="315" key="GridCell.Tab.0.left" timestamp="1593976096723">
+    <state width="1323" height="315" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593981307175" />
+    <state width="1323" height="315" key="GridCell.Tab.0.left" timestamp="1593981307175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593976096723" />
-    <state width="1323" height="315" key="GridCell.Tab.0.right" timestamp="1593976096723">
+    <state width="1323" height="315" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593981307175" />
+    <state width="1323" height="315" key="GridCell.Tab.0.right" timestamp="1593981307176">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593976096723" />
+    <state width="1323" height="315" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593981307176" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1593960349566">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
