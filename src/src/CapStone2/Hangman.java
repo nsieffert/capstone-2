@@ -6,31 +6,33 @@ import java.util.ArrayList;
 import java.util.regex.Pattern;
 
 public class Hangman implements Runnable {
-    private final String ANSI_BRIGHT_RED = "\u001b[31;1m";
-    private final String ANSI_BRIGHT_YELLOW = "\u001b[33;1m";
-    private final String ANSI_BRIGHT_BLUE = "\u001b[34;1m";
-    private final String ANSI_RESET = "\u001B[0m";
-
-    private static final int MAXERRORS = 6;
     private String wordToFind;
     private char[] wordFound;
     private int remainingErrors;
     private final ArrayList<String> LETTERS = new ArrayList<>();
-    private boolean quit = false;
 
     public void run() {
         remainingErrors = 0;
         LETTERS.clear();
-        wordToFind = Random.nextWordToFind();
+        wordToFind = RandomWord.nextWordToFind();
         wordFound = new char[wordToFind.length()];
-        Arrays.fill(wordFound, '_'); // this was a for loop. Intellij offered a new fill feature.
+        Arrays.fill(wordFound, '_'); // this was a 'for' loop. New fill feature.
     }
-
     private boolean wordFound() {
         return wordToFind.contentEquals(new String(wordFound));
     }
+    private String wordFoundContent() {
+        StringBuilder builder = new StringBuilder();
+        for (int i = 0; i < wordFound.length; i++) {
+            builder.append(wordFound[i]);
+            if (i < wordFound.length - 1) {
+                builder.append(" ");
+            }
+        }
+        return builder.toString();
+    }
 
-    private void enter(String c) {
+    private void calcWord(String c) {
         if (!LETTERS.contains(c)) {
             if (wordToFind.contains(c)) {
                 int index = wordToFind.indexOf(c);
@@ -44,25 +46,19 @@ public class Hangman implements Runnable {
             LETTERS.add(c);
         }
     }
+    public void userPlay() {
+        final String ANSI_BRIGHT_RED = "\u001b[31;1m";
+        final String ANSI_BRIGHT_YELLOW = "\u001b[33;1m";
+         String ANSI_BRIGHT_BLUE = "\u001b[34;1m";
+        final String ANSI_RESET = "\u001B[0m";
+        final int MAXERRORS = 6;
 
-    private String wordFoundContent() {
-        StringBuilder builder = new StringBuilder();
-        for (int i = 0; i < wordFound.length; i++) {
-            builder.append(wordFound[i]);
-            if (i < wordFound.length - 1) {
-                builder.append(" ");
-            }
-        }
-        return builder.toString();
-    }
-    public void play () {
         try (Scanner input = new Scanner(System.in)) {
             while (remainingErrors < MAXERRORS) {
                 System.out.print("Enter a single letter: ");
                 String str = input.next().toUpperCase();
 
                 if (str.equals("QUIT")) {
-                    quit = true;
                     break;
                 } else {
                     Pattern p = Pattern.compile("[\\d]");
@@ -72,10 +68,10 @@ public class Hangman implements Runnable {
                         if (str.length() > 1) {
                             str = str.substring(0, 1);
                         }
-                        enter(str);
+                        calcWord(str);
                         System.out.println("Your entry: " + wordFoundContent());
                         if (wordFound()) {
-                            System.out.println(ANSI_BRIGHT_BLUE + "You Win!" + ANSI_RESET);
+                            System.out.println(ANSI_BRIGHT_BLUE + "You Win!" + "\uD83D\uDE42" + ANSI_RESET );
                             run();
                            // break;
                         } else {
@@ -83,7 +79,7 @@ public class Hangman implements Runnable {
                         }
                     }
                     if (remainingErrors == MAXERRORS) {
-                        System.out.println(ANSI_BRIGHT_RED + "You Lose!" + ANSI_RESET);
+                        System.out.println(ANSI_BRIGHT_RED + "You Lose!" + "\uD83D\uDE26" + ANSI_RESET);
                         System.out.println("The Secret Word was " + ANSI_BRIGHT_BLUE + wordToFind + ANSI_RESET);
                         remainingErrors = 0;
                         run();

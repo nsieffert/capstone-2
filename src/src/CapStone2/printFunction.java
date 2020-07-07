@@ -1,5 +1,5 @@
 package CapStone2;
 
-interface noFunction {
+interface printFunction {
     public void printIt();
 }

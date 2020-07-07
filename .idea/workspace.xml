@@ -21,7 +21,18 @@
   <component name="ChangeListManager">
     <list default="true" id="76350bd5-904c-4eac-bb59-f240e2c3aff7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Hangman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Hangman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Printing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Printing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Random.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Words.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Words.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/noFunction.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Hangman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Printing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Printing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/RandomWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Words.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/noFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/printFunction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +75,7 @@
       <module name="src" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CapStone2.Random" />
+          <option name="PATTERN" value="CapStone2.RandomWord" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CapStone2.Main" />
-      <module name="src" />
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.Main" />
+      <module name="java-3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CapStone2.*" />
+          <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.Main" />
-      <module name="java-3" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CapStone2.Main" />
+      <module name="src" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.*" />
+          <option name="PATTERN" value="CapStone2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,22 +207,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593984818896" />
-    <state width="1323" height="315" key="GridCell.Tab.0.bottom" timestamp="1594000614004">
+    <state width="1323" height="315" key="GridCell.Tab.0.bottom" timestamp="1594084971238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594000614004" />
-    <state width="1323" height="315" key="GridCell.Tab.0.center" timestamp="1594000614004">
+    <state width="1323" height="315" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594084971238" />
+    <state width="1323" height="315" key="GridCell.Tab.0.center" timestamp="1594084971237">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594000614004" />
-    <state width="1323" height="315" key="GridCell.Tab.0.left" timestamp="1594000614003">
+    <state width="1323" height="315" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594084971237" />
+    <state width="1323" height="315" key="GridCell.Tab.0.left" timestamp="1594084971237">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594000614003" />
-    <state width="1323" height="315" key="GridCell.Tab.0.right" timestamp="1594000614004">
+    <state width="1323" height="315" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594084971237" />
+    <state width="1323" height="315" key="GridCell.Tab.0.right" timestamp="1594084971237">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594000614004" />
+    <state width="1323" height="315" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594084971237" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1593960349566">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
