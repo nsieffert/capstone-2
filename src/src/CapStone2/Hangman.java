@@ -1,5 +1,6 @@
 package CapStone2;
 
+import javax.swing.*;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -10,6 +11,7 @@ public class Hangman implements Runnable {
     private char[] wordFound;
     private int remainingErrors;
     private final ArrayList<String> LETTERS = new ArrayList<>();
+    final static int MAXERRORS = 6;
 
     public void run() {
         remainingErrors = 0;
@@ -51,7 +53,8 @@ public class Hangman implements Runnable {
         final String ANSI_BRIGHT_YELLOW = "\u001b[33;1m";
          String ANSI_BRIGHT_BLUE = "\u001b[34;1m";
         final String ANSI_RESET = "\u001B[0m";
-        final int MAXERRORS = 6;
+
+
 
         try (Scanner input = new Scanner(System.in)) {
             while (remainingErrors < MAXERRORS) {

@@ -20,19 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76350bd5-904c-4eac-bb59-f240e2c3aff7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/src/CapStone2/Graphics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/images/aaaaadeadman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/images/aagallows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/images/aaman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/images/aanoose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/images/smallstool1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/images/smallstool2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/images/smallstool3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Hangman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Hangman.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Printing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Printing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Random.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Words.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Words.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/noFunction.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Hangman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Printing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Printing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/RandomWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Words.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/noFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/printFunction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="module-info" />
         <option value="Class" />
       </list>
     </option>
@@ -60,8 +61,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -89,6 +90,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lambda_streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CapStone2.Main" />
+      <module name="src" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CapStone2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,34 +217,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="150" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1593885308803" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1593984818896">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1594172662054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593984818896" />
-    <state width="1323" height="315" key="GridCell.Tab.0.bottom" timestamp="1594084971238">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594172662054" />
+    <state width="1323" height="147" key="GridCell.Tab.0.bottom" timestamp="1594173159011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594084971238" />
-    <state width="1323" height="315" key="GridCell.Tab.0.center" timestamp="1594084971237">
+    <state width="1323" height="147" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594173159011" />
+    <state width="1323" height="147" key="GridCell.Tab.0.center" timestamp="1594173159011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594084971237" />
-    <state width="1323" height="315" key="GridCell.Tab.0.left" timestamp="1594084971237">
+    <state width="1323" height="147" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594173159011" />
+    <state width="1323" height="147" key="GridCell.Tab.0.left" timestamp="1594173159010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594084971237" />
-    <state width="1323" height="315" key="GridCell.Tab.0.right" timestamp="1594084971237">
+    <state width="1323" height="147" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594173159010" />
+    <state width="1323" height="147" key="GridCell.Tab.0.right" timestamp="1594173159011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594084971237" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1593960349566">
+    <state width="1323" height="147" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594173159011" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1594157035759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593960349566" />
-    <state x="65" y="0" key="new project wizard" timestamp="1593814042142">
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594157035759" />
+    <state x="65" y="0" key="new project wizard" timestamp="1594157721987">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1593814042142" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1594157721987" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1593973382048">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
