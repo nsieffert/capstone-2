@@ -1,6 +1,5 @@
 package CapStone2;
 
-import javax.swing.*;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -9,12 +8,12 @@ import java.util.regex.Pattern;
 public class Hangman implements Runnable {
     private String wordToFind;
     private char[] wordFound;
-    private int remainingErrors;
+    public static int errorCount;
     private final ArrayList<String> LETTERS = new ArrayList<>();
     final static int MAXERRORS = 6;
 
     public void run() {
-        remainingErrors = 0;
+        errorCount = 0;
         LETTERS.clear();
         wordToFind = RandomWord.nextWordToFind();
         wordFound = new char[wordToFind.length()];
@@ -43,7 +42,7 @@ public class Hangman implements Runnable {
                     index = wordToFind.indexOf(c, index + 1);
                 }
             } else {
-                remainingErrors++;
+                errorCount++;
             }
             LETTERS.add(c);
         }
@@ -57,7 +56,7 @@ public class Hangman implements Runnable {
 
 
         try (Scanner input = new Scanner(System.in)) {
-            while (remainingErrors < MAXERRORS) {
+            while (errorCount < MAXERRORS) {
                 System.out.print("Enter a single letter: ");
                 String str = input.next().toUpperCase();
 
@@ -78,13 +77,13 @@ public class Hangman implements Runnable {
                             run();
                            // break;
                         } else {
-                            System.out.println(ANSI_BRIGHT_YELLOW + "Number of Tries Remaining: " + (MAXERRORS - remainingErrors) + ANSI_RESET);
+                            System.out.println(ANSI_BRIGHT_YELLOW + "Number of Tries Remaining: " + (MAXERRORS - errorCount) + ANSI_RESET);
                         }
                     }
-                    if (remainingErrors == MAXERRORS) {
+                    if (errorCount == MAXERRORS) {
                         System.out.println(ANSI_BRIGHT_RED + "You Lose!" + "\uD83D\uDE26" + ANSI_RESET);
                         System.out.println("The Secret Word was " + ANSI_BRIGHT_BLUE + wordToFind + ANSI_RESET);
-                        remainingErrors = 0;
+                        errorCount = 0;
                         run();
                     }
                 }

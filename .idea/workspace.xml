@@ -20,17 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76350bd5-904c-4eac-bb59-f240e2c3aff7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/src/CapStone2/Graphics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/images/aaaaadeadman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/images/aagallows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/images/aaman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/images/aanoose.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/images/smallstool1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/images/smallstool2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/images/smallstool3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Graphics$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Graphics$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Graphics$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Graphics$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Graphics$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Graphics$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Graphics$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Graphics.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Hangman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Hangman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Main$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/src/CapStone2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/CapStone2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Graphics.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Hangman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/CapStone2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CapStone2/Main.java" afterDir="false" />
     </list>
@@ -68,6 +70,10 @@
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="lambda_streams" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Norita\atekprojects\capstone-2\src\src" />
+      <recent name="C:\Users\Norita\atekprojects\capstone-2\src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (2)">
@@ -221,22 +227,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594172662054" />
-    <state width="1323" height="147" key="GridCell.Tab.0.bottom" timestamp="1594173159011">
+    <state width="1323" height="378" key="GridCell.Tab.0.bottom" timestamp="1594237520711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="147" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594173159011" />
-    <state width="1323" height="147" key="GridCell.Tab.0.center" timestamp="1594173159011">
+    <state width="1323" height="378" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594237520711" />
+    <state width="1323" height="378" key="GridCell.Tab.0.center" timestamp="1594237520711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="147" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594173159011" />
-    <state width="1323" height="147" key="GridCell.Tab.0.left" timestamp="1594173159010">
+    <state width="1323" height="378" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594237520711" />
+    <state width="1323" height="378" key="GridCell.Tab.0.left" timestamp="1594237520711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="147" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594173159010" />
-    <state width="1323" height="147" key="GridCell.Tab.0.right" timestamp="1594173159011">
+    <state width="1323" height="378" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594237520711" />
+    <state width="1323" height="378" key="GridCell.Tab.0.right" timestamp="1594237520711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="147" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594173159011" />
+    <state width="1323" height="378" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594237520711" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1594157035759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
