@@ -57,14 +57,17 @@
 * Added in a lambda per requirements.
 * Added in a stream, per requirements.
 * Added in some colors to make it look better on the console.
+* Final refactoring to clean up
+* Final review of Uper, UML, OOD document, etc...
 <h2>
     4. Reflection / Refactor
 </h2>
 * This was fun when I understood what I was doing. I just need more time to absorb the boatloads of information I have acquired over the last 9 weeks.
-* 
-*
-*
-*
-*
+* I might have been able to pick a harder game, but I wasn't sure. I wanted to build it myself and see how much I could do without looking things up.
+* I learned all about StringBuilder, which is a really cool tool.
+* I learned more about exceptions and finally understood try with resources for closing the scanner.
+* I wanted to refactor to make the code really easy to understand. I achieved that partly.
+* I wanted to implement a gui, but I just did not feel I had the time to really learn it.
+* Overall, I am thrilled that I was able to do most of this without referring to Google every five minutes. It was more like every couple of hours!
 *
 *

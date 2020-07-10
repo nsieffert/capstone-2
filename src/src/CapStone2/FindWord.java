@@ -1,4 +1,10 @@
 package CapStone2;
 
-public class FindWord {
+abstract class FindWord {
+    public String wordToFind;
+    public char[] wordFound;
+
+    private boolean foundWord() {
+        return wordToFind.contentEquals(new String(wordFound));
+    }
 }

@@ -10,7 +10,7 @@ public class Printing {
 
 
     printFunction printTitle = () -> {
-        String title = "hangman: guess the secret fruit!";
+        String title = "hangman: guess the hanging fruit!";
         IntStream intStream = title.chars();
         Stream<Character> characterStream = title.chars()
                 .mapToObj(c -> (char) c);
@@ -19,4 +19,27 @@ public class Printing {
     printFunction quitInstructions = () -> {
         System.out.println(ANSI_PURPLE + "Type 'quit' at any time to end the game." + ANSI_RESET);
     };
-}
+
+    public void playMessage(String message1) {
+        for (int i = 0; i < message1.length(); i++) {
+            System.out.print(message1.charAt(i));
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    public void playMessage(String message1, String message2) {
+                System.out.println(ANSI_RED + "++++++++++++++" + message1 + "++++++++++++++" + ANSI_RESET);
+                for (int i = 0; i < message2.length(); i++) {
+                    System.out.print(message2.charAt(i));
+                    try {
+                        Thread.sleep(100);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+
+        }

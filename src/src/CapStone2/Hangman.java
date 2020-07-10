@@ -5,9 +5,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
-public class Hangman implements Runnable {
-    private String wordToFind;
-    private char[] wordFound;
+public class Hangman extends FindWord implements Runnable {
     public static int errorCount;
     private final ArrayList<String> LETTERS = new ArrayList<>();
     final static int MAXERRORS = 6;
@@ -17,12 +15,13 @@ public class Hangman implements Runnable {
         LETTERS.clear();
         wordToFind = RandomWord.nextWordToFind();
         wordFound = new char[wordToFind.length()];
-        Arrays.fill(wordFound, '_'); // this was a 'for' loop. New fill feature.
+        Arrays.fill(wordFound, '_');
     }
-    private boolean wordFound() {
+
+    private boolean foundWord() {
         return wordToFind.contentEquals(new String(wordFound));
     }
-    private String wordFoundContent() {
+    private String buildWord() {
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < wordFound.length; i++) {
             builder.append(wordFound[i]);
@@ -53,11 +52,9 @@ public class Hangman implements Runnable {
          String ANSI_BRIGHT_BLUE = "\u001b[34;1m";
         final String ANSI_RESET = "\u001B[0m";
 
-
-
         try (Scanner input = new Scanner(System.in)) {
             while (errorCount < MAXERRORS) {
-                System.out.print("Enter a single letter: ");
+                System.out.print("\nEnter a single letter: ");
                 String str = input.next().toUpperCase();
 
                 if (str.equals("QUIT")) {
@@ -71,8 +68,8 @@ public class Hangman implements Runnable {
                             str = str.substring(0, 1);
                         }
                         calcWord(str);
-                        System.out.println("Your entry: " + wordFoundContent());
-                        if (wordFound()) {
+                        System.out.println("Your entry: " + buildWord());
+                        if (foundWord()) {
                             System.out.println(ANSI_BRIGHT_BLUE + "You Win!" + "\uD83D\uDE42" + ANSI_RESET );
                             run();
                            // break;
