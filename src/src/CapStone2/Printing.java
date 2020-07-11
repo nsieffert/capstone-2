@@ -24,7 +24,7 @@ public class Printing {
         for (int i = 0; i < message1.length(); i++) {
             System.out.print(message1.charAt(i));
             try {
-                Thread.sleep(100);
+                Thread.sleep(80);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -35,7 +35,7 @@ public class Printing {
                 for (int i = 0; i < message2.length(); i++) {
                     System.out.print(message2.charAt(i));
                     try {
-                        Thread.sleep(100);
+                        Thread.sleep(80);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }

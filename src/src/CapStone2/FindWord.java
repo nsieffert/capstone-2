@@ -1,10 +1,10 @@
 package CapStone2;
 
-abstract class FindWord {
-    public String wordToFind;
-    public char[] wordFound;
+    abstract class FindWord {
+    public String newWord;
+    public char[] foundNewWord;
 
     private boolean foundWord() {
-        return wordToFind.contentEquals(new String(wordFound));
+        return newWord.contentEquals(new String(foundNewWord));
     }
 }

@@ -7,49 +7,23 @@ import java.util.regex.Pattern;
 
 public class Hangman extends FindWord implements Runnable {
     public static int errorCount;
-    private final ArrayList<String> LETTERS = new ArrayList<>();
+    private static final ArrayList<String> LETTERS = new ArrayList<>();
     final static int MAXERRORS = 6;
 
-    public void run() {
+    private boolean foundWord() {
+        return newWord.contentEquals(new String(foundNewWord));
+    }
+    public void run () {
         errorCount = 0;
         LETTERS.clear();
-        wordToFind = RandomWord.nextWordToFind();
-        wordFound = new char[wordToFind.length()];
-        Arrays.fill(wordFound, '_');
-    }
-
-    private boolean foundWord() {
-        return wordToFind.contentEquals(new String(wordFound));
-    }
-    private String buildWord() {
-        StringBuilder builder = new StringBuilder();
-        for (int i = 0; i < wordFound.length; i++) {
-            builder.append(wordFound[i]);
-            if (i < wordFound.length - 1) {
-                builder.append(" ");
-            }
-        }
-        return builder.toString();
-    }
-
-    private void calcWord(String c) {
-        if (!LETTERS.contains(c)) {
-            if (wordToFind.contains(c)) {
-                int index = wordToFind.indexOf(c);
-                while (index >= 0) {
-                    wordFound[index] = c.charAt(0);
-                    index = wordToFind.indexOf(c, index + 1);
-                }
-            } else {
-                errorCount++;
-            }
-            LETTERS.add(c);
-        }
+        newWord = RandomWord.nextWordToFind();
+        foundNewWord = new char[newWord.length()];
+        Arrays.fill(foundNewWord, '_');
     }
     public void userPlay() {
         final String ANSI_BRIGHT_RED = "\u001b[31;1m";
         final String ANSI_BRIGHT_YELLOW = "\u001b[33;1m";
-         String ANSI_BRIGHT_BLUE = "\u001b[34;1m";
+        String ANSI_BRIGHT_BLUE = "\u001b[34;1m";
         final String ANSI_RESET = "\u001B[0m";
 
         try (Scanner input = new Scanner(System.in)) {
@@ -58,6 +32,7 @@ public class Hangman extends FindWord implements Runnable {
                 String str = input.next().toUpperCase();
 
                 if (str.equals("QUIT")) {
+                    System.out.println(ANSI_BRIGHT_RED + "Thanks for Playing!" + ANSI_RESET);
                     break;
                 } else {
                     Pattern p = Pattern.compile("[\\d]");
@@ -67,19 +42,19 @@ public class Hangman extends FindWord implements Runnable {
                         if (str.length() > 1) {
                             str = str.substring(0, 1);
                         }
-                        calcWord(str);
+                        addWord(str);
                         System.out.println("Your entry: " + buildWord());
                         if (foundWord()) {
-                            System.out.println(ANSI_BRIGHT_BLUE + "You Win!" + "\uD83D\uDE42" + ANSI_RESET );
+                            System.out.println(ANSI_BRIGHT_BLUE + "You Win!" + "\uD83D\uDE42" + ANSI_RESET);
                             run();
-                           // break;
+                            // break;
                         } else {
                             System.out.println(ANSI_BRIGHT_YELLOW + "Number of Tries Remaining: " + (MAXERRORS - errorCount) + ANSI_RESET);
                         }
                     }
                     if (errorCount == MAXERRORS) {
                         System.out.println(ANSI_BRIGHT_RED + "You Lose!" + "\uD83D\uDE26" + ANSI_RESET);
-                        System.out.println("The Secret Word was " + ANSI_BRIGHT_BLUE + wordToFind + ANSI_RESET);
+                        System.out.println("The Secret Word was " + ANSI_BRIGHT_BLUE + newWord + ANSI_RESET);
                         errorCount = 0;
                         run();
                     }
@@ -87,4 +62,30 @@ public class Hangman extends FindWord implements Runnable {
             }
         }
     }
-}
+
+    private String buildWord() {
+        StringBuilder builder = new StringBuilder();
+        for (int i = 0; i < foundNewWord.length; i++) {
+            builder.append(foundNewWord[i]);
+            if (i < foundNewWord.length - 1) {
+                builder.append(" ");
+            }
+        }
+        return builder.toString();
+    }
+
+    private void addWord(String c) {
+        if (!LETTERS.contains(c)) {
+            if (newWord.contains(c)) {
+                int index = newWord.indexOf(c);
+                while (index >= 0) {
+                    foundNewWord[index] = c.charAt(0);
+                    index = newWord.indexOf(c, index + 1);
+                }
+            } else {
+                errorCount++;
+            }
+            LETTERS.add(c);
+        }
+    }
+        }
