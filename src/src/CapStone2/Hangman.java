@@ -13,6 +13,7 @@ public class Hangman extends FindWord implements Runnable {
     private boolean foundWord() {
         return newWord.contentEquals(new String(foundNewWord));
     }
+    
     public void run () {
         errorCount = 0;
         LETTERS.clear();
