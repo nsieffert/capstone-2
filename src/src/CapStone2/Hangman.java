@@ -13,7 +13,7 @@ public class Hangman extends FindWord implements Runnable {
     private boolean foundWord() {
         return newWord.contentEquals(new String(foundNewWord));
     }
-    
+
     public void run () {
         errorCount = 0;
         LETTERS.clear();
@@ -24,7 +24,7 @@ public class Hangman extends FindWord implements Runnable {
     public void userPlay() {
         final String ANSI_BRIGHT_RED = "\u001b[31;1m";
         final String ANSI_BRIGHT_YELLOW = "\u001b[33;1m";
-        String ANSI_BRIGHT_BLUE = "\u001b[34;1m";
+        final String ANSI_BRIGHT_BLUE = "\u001b[34;1m";
         final String ANSI_RESET = "\u001B[0m";
 
         try (Scanner input = new Scanner(System.in)) {
